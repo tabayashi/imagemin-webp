@@ -88,6 +88,14 @@ Default: `false`
 
 Adjust filter strength automatically.
 
+##### sharpYuv
+
+Type: `boolean`\
+Default: `false`
+
+Use more accurate and sharper RGB->YUV conversion if needed. Note that this process is slower than the default 'fast' RGB->YUV conversion.
+
+
 ##### sharpness
 
 Type: `number`\
