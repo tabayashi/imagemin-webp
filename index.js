@@ -49,6 +49,10 @@ const imageminWebp = (options = {}) => input => {
 		args.push('-af');
 	}
 
+	if (options.sharpYuv) {
+		args.push('-sharp_yuv')
+	}
+
 	if (options.sharpness) {
 		args.push('-sharpness', options.sharpness);
 	}
